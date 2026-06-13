@@ -1,0 +1,1 @@
+// types/profile.ts\nexport interface UserProfile {\n  id: string;\n  username: string;\n  bio: string;\n  avatar: string;\n  reputationScore: number;\n  createdAt: string;\n  updatedAt: string;\n}\n\nexport interface ProfileFormData {\n  username: string;\n  bio: string;\n  avatar: string;\n}\n
