@@ -5,22 +5,19 @@ function Leaderboard() {
     { name: user.name, reputation: user.reputation },
     { name: "Alice", reputation: 88 },
     { name: "John", reputation: 75 },
-    { name: "Sarah", reputation: 70 },
   ];
 
   return (
     <div>
-      <h1>Top Trusted Users</h1>
+      <h1>Leaderboard</h1>
 
-      <ol>
-        {users.map((user, index) => (
-          <UserCard
-            key={index}
-            name={user.name}
-            reputation={user.reputation}
-            />
-        ))}
-      </ol>
+      {users.map((u, i) => (
+        <UserCard
+          key={i}
+          name={u.name}
+          reputation={u.reputation}
+        />
+      ))}
     </div>
   );
 }
