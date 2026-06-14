@@ -1,10 +1,10 @@
 function Profile() {
   return (
     <div>
-      <h1>User Profile</h1>
+      <h1>Your Profile</h1>
       <p>Name: Peter</p>
-      <p>Reputation: 92</p>
       <p>Wallet: Connected</p>
+      <p>Reputation: 92</p>
     </div>
   );
 }
