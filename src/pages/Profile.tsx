@@ -1,12 +1,13 @@
 import WalletConnect from "../components/WalletConnect";
+import { user } from "../data/userData";
 
 function Profile() {
   return (
     <div>
       <h1>Your Profile</h1>
 
-      <p>Name: Peter</p>
-      <p>Reputation: 92</p>
+      <p>Name: {user.name}</p>
+      <p>Reputation: {user.reputation}</p>
 
       <WalletConnect />
     </div>
