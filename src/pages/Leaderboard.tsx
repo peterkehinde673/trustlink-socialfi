@@ -1,6 +1,7 @@
+import { user } from "../data/userData";
 function Leaderboard() {
   const users = [
-    { name: "Peter", reputation: 92 },
+    { name: user.name, reputation: user.reputation },
     { name: "Alice", reputation: 88 },
     { name: "John", reputation: 75 },
     { name: "Sarah", reputation: 70 },
