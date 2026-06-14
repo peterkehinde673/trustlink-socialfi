@@ -15,10 +15,10 @@ function Leaderboard() {
       <ol>
         {users.map((user, index) => (
           <UserCard
-  key={index}
-  name={user.name}
-  reputation={user.reputation}
-/>
+            key={index}
+            name={user.name}
+            reputation={user.reputation}
+            />
         ))}
       </ol>
     </div>
