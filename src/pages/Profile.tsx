@@ -1,7 +1,6 @@
+import { user } from "../data/userData";
 import Badge from "../components/Badge";
 import WalletConnect from "../components/WalletConnect";
-import { user } from "../data/userData";
-
 function Profile() {
   return (
     <div>
