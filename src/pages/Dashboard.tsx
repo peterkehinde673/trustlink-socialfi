@@ -1,13 +1,13 @@
-import { user } from "../data/userData";
 import ActivityFeed from "../components/ActivityFeed";
+import { user } from "../data/userData";
 function Dashboard() {
   return (
     <div>
-      <h1>TrustLink Dashboard</h1>
+      <h1>Dashboard</h1>
 
       <p>Your Reputation: {user.reputation}</p>
-      <p>Total Endorsements: {user.endorsements}</p>
-      <h2>Recent Activity</h2>
+
+      {/* THIS is how you use ActivityFeed */}
       <ActivityFeed />
     </div>
   );
