@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -24,7 +25,7 @@ function App() {
           <Link to="/leaderboard">Leaderboard</Link> |{" "}
           <Link to="/endorsement">Endorsement</Link> |{" "}
           <Link to="/about">About</Link>
-        </nav>
+        <Navbar />
 
         <hr />
 
