@@ -8,7 +8,15 @@ import Endorsement from "./pages/Endorsement";
 function App() {
   return (
     <BrowserRouter>
-      <div style={{ padding: "20px" }}>
+      <div
+  style={{
+    padding: "20px",
+    backgroundColor: "#0d1117",
+    color: "white",
+    minHeight: "100vh",
+    fontFamily: "Arial, sans-serif"
+  }}
+>
         <nav>
           <Link to="/">Dashboard</Link> |{" "}
           <Link to="/profile">Profile</Link> |{" "}
