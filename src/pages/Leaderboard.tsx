@@ -1,3 +1,4 @@
+import UserCard from "../components/UserCard";
 import { user } from "../data/userData";
 function Leaderboard() {
   const users = [
@@ -13,9 +14,11 @@ function Leaderboard() {
 
       <ol>
         {users.map((user, index) => (
-          <li key={index}>
-            {user.name} - {user.reputation}
-          </li>
+          <UserCard
+  key={index}
+  name={user.name}
+  reputation={user.reputation}
+/>
         ))}
       </ol>
     </div>
