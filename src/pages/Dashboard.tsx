@@ -1,6 +1,5 @@
-import ActivityFeed from "../components/ActivityFeed";
 import { user } from "../data/userData";
-
+import ActivityFeed from "../components/ActivityFeed";
 function Dashboard() {
   return (
     <div>
