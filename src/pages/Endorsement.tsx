@@ -1,8 +1,7 @@
 function Endorsement() {
   return (
     <div>
-      <h1>Endorse User</h1>
-
+      <h1>Endorse a User</h1>
       <button>Give Endorsement</button>
     </div>
   );
