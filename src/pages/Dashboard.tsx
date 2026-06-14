@@ -6,8 +6,7 @@ function Dashboard() {
       <h1>TrustLink Dashboard</h1>
 
       <p>Your Reputation: {user.reputation}</p>
-      <p>Endorsements: {user.endorsements}</p>
-      <p>Wallet: {user.wallet}</p>
+      <p>Total Endorsements: {user.endorsements}</p>
     </div>
   );
 }
