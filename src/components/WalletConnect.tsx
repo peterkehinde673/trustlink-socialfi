@@ -10,7 +10,15 @@ function WalletConnect() {
       {connected ? (
         <p>✅ Wallet Connected</p>
       ) : (
-        <button onClick={() => setConnected(true)}>
+        <button
+          onClick={() => setConnected(true)}
+          style={{
+            padding: "10px 15px",
+            borderRadius: "8px",
+            border: "none",
+            cursor: "pointer",
+  }}
+>
           Connect Wallet
         </button>
       )}
