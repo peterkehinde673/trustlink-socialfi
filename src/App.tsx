@@ -17,11 +17,12 @@ function App() {
     fontFamily: "Arial, sans-serif"
   }}
 >
-        <nav>
+        <nav style={{ marginBottom: "20px" }}>
           <Link to="/">Dashboard</Link> |{" "}
           <Link to="/profile">Profile</Link> |{" "}
           <Link to="/leaderboard">Leaderboard</Link> |{" "}
-          <Link to="/endorsement">Endorsement</Link>
+          <Link to="/endorsement">Endorsement</Link> |{" "}
+          <Link to="/about">About</Link>
         </nav>
 
         <hr />
