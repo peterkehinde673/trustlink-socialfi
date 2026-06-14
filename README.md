@@ -227,6 +227,23 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 - Thanks to our community contributors
 - Inspired by decentralized identity and reputation standards
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](public/screenshots/dashboard.png)
+
+### Profile
+
+![Profile](public/screenshots/profile.png)
+
+### Leaderboard
+
+![Leaderboard](public/screenshots/leaderboard.png)
+
+### Endorsement
+
+![Endorsement](public/screenshots/endorsement.png)
 ---
 
 **Made with ❤️ by the TrustLink Team**
