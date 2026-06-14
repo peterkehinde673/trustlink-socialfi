@@ -1,3 +1,4 @@
+import { user } from "../data/userData";
 function Dashboard() {
   return (
     <div>
@@ -7,7 +8,7 @@ function Dashboard() {
 
       <p>Total Users: 128</p>
       <p>Total Endorsements: 584</p>
-      <p>Your Reputation: 92</p>
+      <p>Your Reputation: {user.reputation}</p>
 
       <hr />
 
