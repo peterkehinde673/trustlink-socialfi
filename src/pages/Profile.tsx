@@ -1,14 +1,16 @@
-function Leaderboard() {
+import WalletConnect from "../components/WalletConnect";
+
+function Profile() {
   return (
     <div>
-      <h1>Top Trusted Users</h1>
-      <ol>
-        <li>Peter - 92</li>
-        <li>Alice - 88</li>
-        <li>John - 75</li>
-      </ol>
+      <h1>Your Profile</h1>
+
+      <p>Name: Peter</p>
+      <p>Reputation: 92</p>
+
+      <WalletConnect />
     </div>
   );
 }
 
-export default Leaderboard;
+export default Profile;
