@@ -1,12 +1,21 @@
 function Leaderboard() {
+  const users = [
+    { name: "Peter", reputation: 92 },
+    { name: "Alice", reputation: 88 },
+    { name: "John", reputation: 75 },
+    { name: "Sarah", reputation: 70 },
+  ];
+
   return (
     <div>
-      <h1>Leaderboard</h1>
+      <h1>Top Trusted Users</h1>
 
       <ol>
-        <li>Peter - 92</li>
-        <li>Alice - 88</li>
-        <li>John - 75</li>
+        {users.map((user, index) => (
+          <li key={index}>
+            {user.name} - {user.reputation}
+          </li>
+        ))}
       </ol>
     </div>
   );
