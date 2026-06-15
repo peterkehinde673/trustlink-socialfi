@@ -230,20 +230,19 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## Screenshots
 
 ### Dashboard
-
-![Dashboard](public/screenshots/dashboard.png)
+![Dashboard](docs/screenshots/dashboard.png)
 
 ### Profile
-
-![Profile](public/screenshots/profile.png)
+![Profile](docs/screenshots/profile.png)
 
 ### Leaderboard
-
-![Leaderboard](public/screenshots/leaderboard.png)
+![Leaderboard](docs/screenshots/leaderboard.png)
 
 ### Endorsement
+![Endorsement](docs/screenshots/endorsement.png)
 
-![Endorsement](public/screenshots/endorsement.png)
+### About
+![About](docs/screenshots/about.png)
 ---
 
 **Made with ❤️ by the TrustLink Team**
